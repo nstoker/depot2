@@ -57,7 +57,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "rails-erd", require:false
+  gem "rails-erd", require: false
   gem "rubycritic", require: false
   gem "web-console"
 end
