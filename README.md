@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
 
-Things you may want to cover:
+Currently following the Agile Web Development with Rails 8 course from Pragmatic Programmers.
 
-* Ruby version
+## History
 
-* System dependencies
+v0.0 20260129 Inital build
 
-* Configuration
+- Adds rubycritic. Score 98.43%
+- Adds rails-erd, simplecov
 
-* Database creation
+- `rails g Product`
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
