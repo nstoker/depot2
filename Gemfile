@@ -68,3 +68,5 @@ group :test do
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
+
+gem "hotwire-spark", "~> 0.1.13", group: :development
