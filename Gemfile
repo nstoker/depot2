@@ -57,7 +57,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "rails-erd", require:false
+  gem "rails-erd"
   gem "rubycritic", require: false
   gem "web-console"
 end
@@ -68,3 +68,5 @@ group :test do
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
+
+gem "hotwire-spark", "~> 0.1.13", group: :development
