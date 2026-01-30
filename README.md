@@ -10,6 +10,8 @@ Iteration A2.
 - Added css to product index to improve display
 Iteration A3: Making the page update in real time.
 - Added turbo stream p79
+Playtime p81.
+- Added hotwire-spark for changes refreshing in the browser automatically.
 
 ## History
 
