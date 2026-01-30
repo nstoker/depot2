@@ -16,7 +16,8 @@ Playtime p81.
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
-v0.1 20250130 Finished iteration A, rubycritic score 96.73, code coverage 79.59%
+v0.1 20260130 Finished iteration A, rubycritic score 96.73, code coverage 79.59%
+
 
 ## Current issue
 
