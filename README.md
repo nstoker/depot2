@@ -7,6 +7,7 @@ Currently following the Agile Web Development with Rails 8 course from Pragmatic
 Iteration A1 p73 completed.
 Iteration A2.
 - Added a seed item.
+- Added css to product index to improve display
 
 ## History
 
