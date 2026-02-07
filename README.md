@@ -20,6 +20,7 @@ Restarted Task B Validation and Unit Testing to see what I had missed.
 Iteration B1 completed, however tests are failing as the tests don't build the data correctly
 Iteration B2
   - p90 products attributes must not be empty: model tests ok
+  - tests up to p92 "Test Fixtures" added and green
 
 ## History
 

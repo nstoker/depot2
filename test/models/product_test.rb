@@ -32,4 +32,23 @@ class ProductTest < ActiveSupport::TestCase
     product.price = 1
     assert product.valid?
   end
+
+  test "image url" do
+    product = new_product("lorem.jpg", "image/jpeg")
+    assert product.valid?, "image/jpeg must be valid"
+
+    product = new_product("logo.svg", "image/svg+xml")
+    assert_not product.valid?, "image/svg+xml must be invalid"
+  end
+
+  def new_product(filename, content_type)
+    Product.new(
+      title: "My Book Title",
+      description: "yy",
+      price: 1
+    ).tap do |product|
+      product.image.attach(
+        io: File.open("db/images/#{filename}"), filename:, content_type:)
+    end
+  end
 end
