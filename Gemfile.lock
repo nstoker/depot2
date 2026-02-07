@@ -112,6 +112,9 @@ GEM
     connection_pool (3.0.2)
     crass (1.0.6)
     date (3.5.1)
+    debase (0.2.9)
+      debase-ruby_core_source (>= 3.4.1)
+    debase-ruby_core_source (4.0.0)
     debug (1.11.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
@@ -178,6 +181,7 @@ GEM
       listen
       rails (>= 7.0.0)
       zeitwerk
+    htmlbeautifier (1.4.3)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
@@ -380,6 +384,8 @@ GEM
       rubocop (>= 1.72)
       rubocop-performance (>= 1.24)
       rubocop-rails (>= 2.30)
+    ruby-debug-ide (0.7.5)
+      rake (>= 0.8.1)
     ruby-graphviz (1.2.5)
       rexml
     ruby-progressbar (1.13.0)
@@ -503,8 +509,10 @@ DEPENDENCIES
   brakeman
   bundler-audit
   capybara
+  debase
   debug
   hotwire-spark (~> 0.1.13)
+  htmlbeautifier
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
@@ -515,6 +523,7 @@ DEPENDENCIES
   rails (~> 8.1.2)
   rails-erd
   rubocop-rails-omakase
+  ruby-debug-ide
   rubycritic
   selenium-webdriver
   simplecov

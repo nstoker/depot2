@@ -13,6 +13,9 @@ Iteration A3: Making the page update in real time.
 Playtime p81.
 - Added hotwire-spark for changes refreshing in the browser automatically.
 
+Adding debug/testing to repo.
+- Added Ruby LSP, Ruby Debug, Ruby SolarGraph extensions to vscode.
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
