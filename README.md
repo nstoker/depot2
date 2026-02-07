@@ -16,6 +16,10 @@ Playtime p81.
 Adding debug/testing to repo.
 - Added Ruby LSP, Ruby Debug, Ruby SolarGraph extensions to vscode.
 
+Restarted Task B Validation and Unit Testing to see what I had missed.
+Iteration B1 completed, however tests are failing as the tests don't build the data correctly
+Iteration B2
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
@@ -24,3 +28,12 @@ v0.1 20260130 Finished iteration A, rubycritic score 96.73, code coverage 79.59%
 
 ## Current issue
 
+Up to p99 about to apply "One Final Change", but there are 11 tests failing at this point.
+ Current state shows
+ ```
+ProductsControllerTest#test_should_get_new:
+ActiveRecord::NotNullViolation: PG::NotNullViolation: ERROR:  null value in column "record_type" of relation "active_storage_attachments" violates not-null constraint
+DETAIL:  Failing row contains (398878569, 95586318, 2026-02-01 20:00:41.820508, image, 398878569, null).
+
+```
+Checking code up to p96
