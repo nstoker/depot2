@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "ruby_lsp",
+      "request": "launch",
+      "name": "Debug program",
+      "program": "ruby "
+    },
+    {
+      "cwd": "${workspaceRoot}",
+      "name": "Minitest - Run at cursor position",
+      "type": "rdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/bin/rails",
+      "args": [
+        "test",
+        "${file}:${lineNumber}"
+      ]
+    },
+  ]
+}

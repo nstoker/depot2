@@ -14,6 +14,7 @@ Playtime p81.
 - Added hotwire-spark for changes refreshing in the browser automatically.
 
 Adding debug/testing to repo.
+- Added Ruby LSP, Ruby Debug, Ruby SolarGraph extensions to vscode.
 
 ## History
 

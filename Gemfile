@@ -57,6 +57,9 @@ group :development, :test do
 end
 
 group :development do
+  gem "debase"
+  gem "htmlbeautifier"
+  gem "ruby-debug-ide"
   gem "rails-erd"
   gem "rubycritic", require: false
   gem "web-console"
