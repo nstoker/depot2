@@ -19,6 +19,7 @@ Adding debug/testing to repo.
 Restarted Task B Validation and Unit Testing to see what I had missed.
 Iteration B1 completed, however tests are failing as the tests don't build the data correctly
 Iteration B2 completed, all tests passing now.
+Iteration B2 Playtime. Added validation for product title to be at least 10 characters.
 
 
 ## History

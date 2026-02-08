@@ -13,6 +13,23 @@ class ProductTest < ActiveSupport::TestCase
     assert product.errors[:image].any?
   end
 
+  test "product name at least 10 characters" do
+  product = Product.new(
+    title: "too short",
+    price: 0.01
+  )
+  product.image.attach(
+        io: File.open("test/fixtures/files/lorem.jpg"),
+        filename: "lorem.jpg",
+        content_type: "image/jpeg"
+        )
+    assert product.invalid?
+    assert_equal [ "is too short (minimum is 10 characters)" ], product.errors[:title]
+
+    product.title = "length is ok"
+    assert product.invalid?
+  end
+
   test "product price must be positive" do
     product = Product.new(
       title: "My Book Title",
