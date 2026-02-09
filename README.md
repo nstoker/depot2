@@ -32,6 +32,8 @@ Iteration C2 Adding a page layout
 
 Iteration C3 Using a Helper to Format the Price
 
+Iteration C4 Functional Testing of Controllers
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
