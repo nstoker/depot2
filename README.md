@@ -30,6 +30,8 @@ Iteration C1 Creating the catalog listing
 
 Iteration C2 Adding a page layout
 
+Iteration C3 Using a Helper to Format the Price
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
