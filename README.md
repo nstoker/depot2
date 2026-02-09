@@ -28,6 +28,8 @@ Task C: Catalog Display
 
 Iteration C1 Creating the catalog listing
 
+Iteration C2 Adding a page layout
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
