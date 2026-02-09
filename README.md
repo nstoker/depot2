@@ -36,6 +36,11 @@ Iteration C4 Functional Testing of Controllers
 
 Iteration C5 Caching of partial results
 
+
+# TODO
+
+Iteration C Playtime - to find the specific elements in the DOM.
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
