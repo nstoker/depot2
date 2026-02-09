@@ -26,6 +26,7 @@ Iteration B2 Playtime. Added validation for product title to be at least 10 char
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
 v0.1 20260130 Finished iteration A, rubycritic score 96.73, code coverage 79.59%
+v0.2 20260209 Finished Task B and playtime. Rubycritic score 95/19%, code coverage 80%
 
 
 ## Current issue
