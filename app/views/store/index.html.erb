@@ -11,7 +11,7 @@
     <% @products.each do |product| %>
       <li class="flex-mb-6">
         <%= image_tag(product.image,
-          class: 'object-contain w-40 h-48 shadow mr-6') %>
+          class: 'object-contain w-40 h-48 shadow mr-6') if product.image.persisted? %>
         <div>
           <h2 class="font-bold text-lg mb-3"><%= product.title %></h2>
           <p>
