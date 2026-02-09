@@ -34,6 +34,8 @@ Iteration C3 Using a Helper to Format the Price
 
 Iteration C4 Functional Testing of Controllers
 
+Iteration C5 Caching of partial results
+
 ## History
 
 v0.0 20260129 Inital build rubycritic score 96.73%, Code coverage 79.17%
