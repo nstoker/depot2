@@ -57,7 +57,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "debase"
+  gem "debase", require: false
   gem "htmlbeautifier"
   gem "ruby-debug-ide"
   gem "rails-erd"
