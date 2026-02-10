@@ -26,6 +26,8 @@ Task A
   - Iteration C4 Functional Testing of Controllers
   - Iteration C5 Caching of partial results
 - Task D Cart Creation
+  - Iteration D1 Finding a Cart
+  - Iteration D2 Connecting Products to Carts
 
 # TODO
 
