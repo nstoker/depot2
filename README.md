@@ -28,6 +28,7 @@ Task A
 - Task D Cart Creation
   - Iteration D1 Finding a Cart
   - Iteration D2 Connecting Products to Carts
+  Top of p119
 
 # TODO
 
