@@ -29,7 +29,7 @@ Task A
   - Iteration D1 Finding a Cart
   - Iteration D2 Connecting Products to Carts
   - Iteration D3 Adding a button
-Complete to p124
+  - Complete to p125. Skipping playtime
 
 # TODO
 
@@ -64,3 +64,4 @@ First, try this link to see if there are any existing issue reports for this err
 https://github.com/rubygems/rubygems/search?q=No+such+file+or+directory+%40+rb_sysopen+-+%2Fhome%2Frunner%2Fwork%2Fdepot2%2Fdepot2%2Fvendor%2Fbundle%2Fruby%2F3.4.0%2Fgems%2Fdebase-ruby_core_source-4.0.0%2FRakefile&type=Issues`
 
 Raised [Issue 9322](https://github.com/ruby/rubygems/issues/9322) on github, as of 20260210@12:00.
+git a
