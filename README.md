@@ -30,6 +30,9 @@ Task A
   - Iteration D2 Connecting Products to Carts
   - Iteration D3 Adding a button
   - Complete to p125. Skipping playtime
+- Task E A Smarter Cart
+  - Iteration E1: Creating a smarter cart
+up to p 131. Not showing items as per screenshot at bottom of page.
 
 # TODO
 
