@@ -41,6 +41,7 @@ Task A
 - v0.1 20260130 Finished iteration A, rubycritic score 96.73, code coverage 79.59%
 - v0.2 20260209 Finished Task B and playtime. Rubycritic score 95.19%, code coverage 80%
 - v0.3 20260209 Task C completed Rubycritic score 95.52%, code coverage 81.25%
+- v0.4 20260222 Task D compled Rubycritic score 93.62%, code coverage 86.92%
 
 
 ## Current issue
