@@ -32,7 +32,7 @@ Task A
   - Complete to p125. Skipping playtime
 - Task E A Smarter Cart
   - Iteration E1: Creating a smarter cart
-up to p 131. Not showing items as per screenshot at bottom of page.
+  - Iteration E2: Handling Errors
 
 # TODO
 
