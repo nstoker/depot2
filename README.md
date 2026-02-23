@@ -33,6 +33,9 @@ Task A
 - Task E A Smarter Cart
   - Iteration E1: Creating a smarter cart
   - Iteration E2: Handling Errors
+  - Iteration E3: Finishing the Cart
+  About to start p137 carts_controller
+
 
 # TODO
 
