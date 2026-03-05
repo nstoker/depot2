@@ -34,7 +34,12 @@ Task A
   - Iteration E1: Creating a smarter cart
   - Iteration E2: Handling Errors
   - Iteration E3: Finishing the Cart
-  About to start p137 carts_controller
+Issue at
+
+```Error:
+CartsControllerTest#test_should_destroy_cart:
+ActiveRecord::RecordNotFound: Couldn't find Cart without an ID
+    test/controllers/carts_controller_test.rb:43:in 'block in <class:CartsControllerTest>'```
 
 
 # TODO

@@ -50,10 +50,11 @@ class CartsController < ApplicationController
 
   # DELETE /carts/1 or /carts/1.json
   def destroy
-    @cart.destroy!
+    @cart.destroy! if @cart.id == session[:cart_id]
+    session[:cart_id] = nil
 
     respond_to do |format|
-      format.html { redirect_to carts_path, notice: "Cart was successfully destroyed.", status: :see_other }
+      format.html { redirect_to store_index_path, notice: "Your cart is currently empty", status: :see_other }
       format.json { head :no_content }
     end
   end
@@ -61,6 +62,7 @@ class CartsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_cart
+      puts "!params.inspect"
       @cart = Cart.find(params.expect(:id))
     end
 
