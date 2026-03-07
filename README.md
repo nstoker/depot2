@@ -35,6 +35,17 @@ Task A
   - Iteration E2: Handling Errors
   - Iteration E3: Finishing the Cart
   - Iteration E Playtime skipped for now.
+- Task F Hotwiring the storefront
+  - Iteration F1: Moving the cart
+  * breaks the tests * p144-p146
+
+```
+Error:
+LineItemsControllerTest#test_should_create_line_item:
+ActionView::Template::Error: undefined method 'product_title' for an instance of LineItem
+```
+
+
 Issue at
 
 ```Error:
