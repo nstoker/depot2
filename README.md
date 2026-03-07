@@ -34,6 +34,7 @@ Task A
   - Iteration E1: Creating a smarter cart
   - Iteration E2: Handling Errors
   - Iteration E3: Finishing the Cart
+  - Iteration E Playtime skipped for now.
 Issue at
 
 ```Error:
@@ -45,6 +46,7 @@ ActiveRecord::RecordNotFound: Couldn't find Cart without an ID
 # TODO
 
 - Iteration C Playtime - to find the specific elements in the DOM.
+- Iteration E Playtime (p140) - all skipped
 
 ## History
 
