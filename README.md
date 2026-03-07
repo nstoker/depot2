@@ -30,10 +30,23 @@ Task A
   - Iteration D2 Connecting Products to Carts
   - Iteration D3 Adding a button
   - Complete to p125. Skipping playtime
+- Task E A Smarter Cart
+  - Iteration E1: Creating a smarter cart
+  - Iteration E2: Handling Errors
+  - Iteration E3: Finishing the Cart
+  - Iteration E Playtime skipped for now.
+Issue at
+
+```Error:
+CartsControllerTest#test_should_destroy_cart:
+ActiveRecord::RecordNotFound: Couldn't find Cart without an ID
+    test/controllers/carts_controller_test.rb:43:in 'block in <class:CartsControllerTest>'```
+
 
 # TODO
 
 - Iteration C Playtime - to find the specific elements in the DOM.
+- Iteration E Playtime (p140) - all skipped
 
 ## History
 
@@ -45,16 +58,6 @@ Task A
 
 
 ## Current issue
-
-### Bug
-Unable to install debase gem
-
-CI Reports `Unfortunately, an unexpected error occurred, and Bundler cannot continue.
-
-First, try this link to see if there are any existing issue reports for this error:
-https://github.com/rubygems/rubygems/search?q=No+such+file+or+directory+%40+rb_sysopen+-+%2Fhome%2Frunner%2Fwork%2Fdepot2%2Fdepot2%2Fvendor%2Fbundle%2Fruby%2F3.4.0%2Fgems%2Fdebase-ruby_core_source-4.0.0%2FRakefile&type=Issues`
-
-Raised [Issue 9322](https://github.com/ruby/rubygems/issues/9322) on github, as of 20260210@12:00.
 
 ### Bug
 Unable to install debase gem
