@@ -55,6 +55,7 @@ ActiveRecord::RecordNotFound: Couldn't find Cart without an ID
 - v0.2 20260209 Finished Task B and playtime. Rubycritic score 95.19%, code coverage 80%
 - v0.3 20260209 Task C completed Rubycritic score 95.52%, code coverage 81.25%
 - v0.4 20260222 Task D compled Rubycritic score 93.62%, code coverage 86.92%
+- v0.5 20260307 Task E completed. Rubycritic score 93.98%, code coverate 83.03%
 
 
 ## Current issue
