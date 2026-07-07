@@ -62,7 +62,6 @@ class CartsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_cart
-      puts "!params.inspect"
       @cart = Cart.find(params.expect(:id))
     end
 

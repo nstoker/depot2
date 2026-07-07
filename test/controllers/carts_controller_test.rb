@@ -41,9 +41,6 @@ class CartsControllerTest < ActionDispatch::IntegrationTest
   test "should destroy cart" do
     post line_items_url, params: { product_id: products(:pragprog).id }
 
-    puts "¬cart id #{session[:cart_id]}¬!"
-    puts "<#{session[:cart_id]}>"
-    puts "#{session.to_json}"
     @cart = Cart.find(session[:cart_id])
 
     assert_difference("Cart.count", -1) do
