@@ -35,6 +35,14 @@ Task A
   - Iteration E2: Handling Errors
   - Iteration E3: Finishing the Cart
   - Iteration E Playtime skipped for now.
+- Task F Hotwiring the storefront
+  - Iteration F1: Moving the cart
+      - Fixed one error in my code
+
+
+Current page 152
+   * breaks the tests * p144-p146
+
 Issue at
 
 ```Error:

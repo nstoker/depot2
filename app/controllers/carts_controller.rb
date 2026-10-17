@@ -50,6 +50,7 @@ class CartsController < ApplicationController
 
   # DELETE /carts/1 or /carts/1.json
   def destroy
+    puts "@params #{@parems.to_json}"
     @cart.destroy! if @cart.id == session[:cart_id]
     session[:cart_id] = nil
 
@@ -62,7 +63,6 @@ class CartsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_cart
-      puts "!params.inspect"
       @cart = Cart.find(params.expect(:id))
     end
 
